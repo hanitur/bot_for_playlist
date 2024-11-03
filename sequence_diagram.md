@@ -1,7 +1,8 @@
 # Документация
 
-```plantuml
-@startuml
+<details>
+  <summary>Код диаграммы</summary>
+rtuml
 actor Пользователь as act
 participant "Telegram API" as tg
 participant "Recommendation Service" as rs
@@ -43,4 +44,4 @@ activate tg
 tg --> act: Сообщение со списком концертов
 deactivate tg
 @enduml
-```
+</details>
